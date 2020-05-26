@@ -13,3 +13,12 @@ main {
 .social-link {
 	margin-right: 15px;
 }
+
+/* fetched walpapers */
+.image {
+	object-fit: contain;
+}
+
+.btn {
+	margin-bottom: 20px;
+}
