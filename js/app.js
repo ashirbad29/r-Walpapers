@@ -23,6 +23,7 @@ function show(response) {
 			<div class="img-container col s12 m12 l6">
 				<img src="${walpaper.data.url}" alt="" class="image responsive-img hoverable">
 				<a class="waves-effect waves-light btn btn-small" href="https://www.reddit.com${walpaper.data.permalink}" target="_blank">go to post</a>
+				<a class="btn waves-effect btn-small" href="${walpaper.data.url}" download><i class="material-icons small">file_download</i></a>
 			</div>
 			`;
 			walpaper_section.innerHTML = output;
