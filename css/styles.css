@@ -26,3 +26,6 @@ main {
 .instruction-btn {
 	border: 1px solid green;
 }
+.instruction-btn:hover {
+	border: none;
+}
