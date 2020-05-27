@@ -22,3 +22,7 @@ main {
 .btn {
 	margin-bottom: 20px;
 }
+
+.instruction-btn {
+	border: 1px solid green;
+}

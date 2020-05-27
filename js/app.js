@@ -1,5 +1,8 @@
 //initializing Materialize css component
-
+document.addEventListener('DOMContentLoaded', function () {
+	var elems = document.querySelectorAll('.modal');
+	var instances = M.Modal.init(elems);
+});
 //Initializing the Walpapers class
 const walpapers = new Walpapers();
 
